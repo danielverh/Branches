@@ -1,0 +1,17 @@
+{
+  "title": "Hello World",
+  "pages": {
+    "": {
+      "url": "/",
+      "title": "Home"
+    },
+    "readme": {
+      "url": "/readme",
+      "title": "Readme file"
+    },
+    "example_2": {
+      "url": "/example_2",
+      "title": "Example 2"
+    }
+  }
+}
