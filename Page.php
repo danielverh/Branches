@@ -18,6 +18,6 @@ class Page
     }
     public function getContent(){
         $Parsedown = new Parsedown();
-        return $Parsedown->parse(file_get_contents(Page::getPath($this->name)));
+        return $Parsedown->text(file_get_contents(Page::getPath($this->name)));
     }
 }
